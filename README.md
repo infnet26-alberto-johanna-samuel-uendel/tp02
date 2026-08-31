@@ -205,7 +205,6 @@ O notebook lê o dataset a partir de `data/customer_support_tickets.csv`.
 ```
 TP1/
 ├── README.md                          # Este arquivo
-├── DATASET.md                         # Documentação técnica do dataset
 │
 ├── data/
 │   └── customer_support_tickets.csv   # Customer Support Ticket Dataset (8.469 × 17)
