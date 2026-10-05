@@ -1,3 +1,19 @@
+# EXCUTAR APLICAÇÃO COMPLETO
+
+```bash
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+py -m pip install -r requirements.txt
+fastapi dev main.py
+```
+
+## Rodar Testes Automatizados
+
+```bash
+# Dentro do ambinte virtual .venv
+py -m pytest -v
+```
+
 ## Pré-requisitos
 
 - VS Code
@@ -74,6 +90,8 @@
 ```bash
    deactivate
    Remove-Item -Recurse -Force .venv
+   # Apagar pastas __pycache__
+   Get-ChildItem -Path . -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
 ```
 
 **Linux/Mac:**
